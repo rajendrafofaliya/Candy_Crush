@@ -1,0 +1,62 @@
+body {
+	margin: auto;
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: center;
+}
+#h1{
+	font-weight: bold;
+	color: red;
+}
+#gameArea {
+	margin: auto;
+	width: 320px;
+	height: 320px;
+	table-layout: fixed;
+}
+.btn {
+	border: 1px solid #666666;
+}
+.btn:hover {
+	background-color: #8c8c8c;
+}
+.btn:disabled{
+	background-color:black;
+}
+#arrowContainer {
+	margin: 10px auto;
+}
+#Input {
+	width: 50px;
+}
+.candy-red, .candy-green, .candy-orange, .candy-blue, .candy-purple, .candy-yellow {
+	display: table;
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+
+.candy-red {
+	background-color: red;
+}
+
+.candy-green {
+	background-color: green;
+}
+
+.candy-orange {
+	background-color: orange;
+}
+
+.candy-blue {
+	background-color: blue;
+}
+
+.candy-purple {
+	background-color: purple;
+}
+
+.candy-yellow {
+	background-color: yellow;
+	color: gray;
+}
